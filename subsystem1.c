@@ -1,6 +1,6 @@
 extern int f(void);
 
-int subsystem1(void)
+int __attribute__((visibility("default"))) subsystem1(void)
 {
 	return f();
 }
