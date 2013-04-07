@@ -1,1 +1,4 @@
 system
+*.so
+*.o
+*.a

@@ -1,0 +1,6 @@
+libsystem2.so {
+global:
+	subsystem2;
+local:
+	*;
+};

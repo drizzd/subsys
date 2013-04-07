@@ -1,4 +1,6 @@
-int subsystem1()
+extern int f(void);
+
+int subsystem1(void)
 {
-	return 1;
+	return f();
 }

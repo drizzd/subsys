@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-extern int subsystem1();
-extern int subsystem2();
+extern int subsystem1(void);
+extern int subsystem2(void);
 
-int main()
+int main(void)
 {
 	printf("subsystem1: %d\n", subsystem1());
 	printf("subsystem2: %d\n", subsystem2());
